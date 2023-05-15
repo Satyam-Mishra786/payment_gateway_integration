@@ -1,0 +1,53 @@
+.payContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  
+}
+
+.payBtn{
+  padding: 10px 20px;
+  border:2px solid black;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: black;
+  color:white;
+}
+
+.payBtn:hover{
+  background-color: white;
+  color: black;
+}
+
+.success{
+  font-size: 3rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  font-size: 1.7rem;
+  padding: 10px 20px;
+  outline: none;
+  border:2px solid black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
